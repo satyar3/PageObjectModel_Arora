@@ -1,0 +1,7 @@
+INFO    2019-01-21 16:54:03,458 [main] com.qa.testbase.TestBase  - Config file loaded !!!
+INFO    2019-01-21 16:54:04,511 [TestNG-PoolService-2] com.qa.testbase.TestBase  - Inside Login Test
+INFO    2019-01-21 16:54:04,515 [TestNG-PoolService-1] com.qa.testbase.TestBase  - Inside Login Test
+INFO    2019-01-21 16:54:04,538 [TestNG-PoolService-0] com.qa.testbase.TestBase  - Inside Login Test
+INFO    2019-01-21 16:54:14,124 [TestNG-PoolService-2] com.qa.testbase.TestBase  - Chrome Browser launched
+INFO    2019-01-21 16:54:14,577 [TestNG-PoolService-0] com.qa.testbase.TestBase  - Chrome Browser launched
+INFO    2019-01-21 16:54:21,705 [TestNG-PoolService-1] com.qa.testbase.TestBase  - Firefox Browser launched

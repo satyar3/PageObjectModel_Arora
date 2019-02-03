@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="CRMTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.testcases.ValidateCRMTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpFrameWork"/>
+          <include name="validateCRMTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ValidateCRMTest -->
+    </classes>
+  </test> <!-- CRMTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
