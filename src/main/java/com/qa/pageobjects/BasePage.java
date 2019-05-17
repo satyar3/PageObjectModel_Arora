@@ -35,9 +35,12 @@ public abstract class BasePage<T>
 	{
 		T page = null;
 		driver = DriverManager.getDriver();
+		
+		//AjaxElementLocatorFactory will wait 10 secs (as mentioned in the argument) to load the webelements
 		AjaxElementLocatorFactory ajaxElemLocatorFactory = new AjaxElementLocatorFactory(driver, 10);
 		page = PageFactory.initElements(driver, className);
 		PageFactory.initElements(ajaxElemLocatorFactory, page);
+		
 		ExpectedCondition pageloadCondition = ((BasePage) page).getPageLoadCondition();
 		waitForPageToLoad(pageloadCondition);
 		
